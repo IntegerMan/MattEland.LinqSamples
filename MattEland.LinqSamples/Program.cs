@@ -11,9 +11,7 @@ namespace MattEland.LinqSamples
 
             var books = dataProvider.Books.ToList();
 
-            books.SelectMany()
-
-            Console.WriteLine("Hello " + dataProvider.Books.First().Title);
+            Console.WriteLine("Hello " + books.First().Title);
         }
     }
 }
