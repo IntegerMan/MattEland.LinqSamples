@@ -1,38 +1,22 @@
 [
-  [
-    {
-      "Title": "Sphere",
-      "Author": "Michael Crichton",
-      "Genre": "ScienceFiction",
-      "IsFiction": true
-    },
-    {
-      "Title": "Jurassic Park",
-      "Author": "Michael Crichton",
-      "Genre": "ScienceFiction",
-      "IsFiction": true
-    }
-  ],
-  [
-    {
-      "Title": "Working Effectively with Legacy Code",
-      "Author": "Michael Feathers",
-      "Genre": "Technical",
-      "IsFiction": false
-    }
-  ],
-  [
-    {
-      "Title": "Your Code as a Crime Scene",
-      "Author": "Adam Tornhill",
-      "Genre": "Technical",
-      "IsFiction": false
-    },
-    {
-      "Title": "Software Design X-Rays",
-      "Author": "Adam Tornhill",
-      "Genre": "Technical",
-      "IsFiction": false
-    }
-  ]
+  {
+    "Author": "Michael Crichton",
+    "Books": [
+      "Sphere",
+      "Jurassic Park"
+    ]
+  },
+  {
+    "Author": "Michael Feathers",
+    "Books": [
+      "Working Effectively with Legacy Code"
+    ]
+  },
+  {
+    "Author": "Adam Tornhill",
+    "Books": [
+      "Your Code as a Crime Scene",
+      "Software Design X-Rays"
+    ]
+  }
 ]

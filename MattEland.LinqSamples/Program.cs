@@ -16,7 +16,11 @@ namespace MattEland.LinqSamples
 
             var books = dataProvider.Books.ToList();
 
-            var grouped = books.GroupBy(b => b.Author, b => b.Title);
+            var grouped = books.GroupBy(b => b.Author, b => b.Title, (key, value) => new
+            {
+                Author = key,
+                Books = value
+            });
 
             Console.WriteLine(GetBookJson(grouped));
         }
