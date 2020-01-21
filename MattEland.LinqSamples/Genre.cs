@@ -3,6 +3,7 @@
     public enum Genre
     {
         ScienceFiction,
-        Technical
+        Technical,
+        Fiction
     }
 }
